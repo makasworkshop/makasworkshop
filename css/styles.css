@@ -1,0 +1,137 @@
+/***************************ID SELECTORS****************************/
+
+#heading
+{
+  color: #f1e3cb;
+  margin-bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/***************************TAG SELECTORS***************************/
+
+body
+{
+  margin: 0;
+}
+
+
+h1
+{
+  font-size: 3em;
+  font-family: 'Sofia', cursive;
+  margin-top: 0;
+  padding-top: 5px;
+}
+
+h2
+{
+  font-family: 'Sofia', cursive;
+  text-align: center;
+}
+
+/***************************CLASS SELECTORS*************************/
+
+/********************************RANGKA*****************************/
+
+.head
+{
+  background-color: #581c0c;
+  height: auto;
+}
+
+.body1
+{
+  margin:auto;
+  background-color: #f1e3cb;
+  height: 55%;
+  width: 60%;
+  position: relative;
+}
+
+.body2
+{
+  margin:auto;
+  background-color: #fff5ea;
+  height: 55%;
+  width: 60%;
+  position: relative;
+}
+
+.body3
+{
+  margin: auto;
+  background-color: #f1e3cb;
+  height: 55%;
+  width: 60%;
+  position: relative;
+}
+
+/*******************************IMAGES******************************/
+
+.flowers
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: inline-block;
+  width: 30%;
+  height: auto;
+}
+
+.flowerstext
+{
+  border: 3px solid white;
+  color:  white;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  margin:auto;
+}
+
+.flowerstext:hover
+{
+  opacity: 1;
+}
+
+.yoda
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: inline-block;
+  width: 30%;
+  height: auto;
+}
+
+.yoda:hover
+{
+  opacity: 0.7;
+}
+
+.yodatext
+{
+  border: 3px solid #fff5ea;
+  color:  #fff5ea;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.star
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: inline-block;
+  width: 30%;
+  height: auto;
+}
+
+.star:hover
+{
+  opacity: 0.7;
+}

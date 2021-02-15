@@ -1,0 +1,241 @@
+/* font sizes  */
+
+.large {
+  font-size: 3rem;
+}
+
+h1  /* About Me section */{
+  padding-top: 20%;
+  font-weight: bold;
+  /* font-size: 3rem; */
+  color: #581c0c;
+}
+
+h2  /* Testimonials section */{
+  /* font-size: 3rem; */
+  font-weight: bold;
+  color: #581c0c;
+}
+
+h5 {
+  font-family: 'Sofia', cursive;
+  /* font-size: 3rem; */
+  color: #f1e3cb;
+}
+
+p {
+  color: grey;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+em {
+  color: grey;
+}
+
+/* Nav Bar */
+
+.navbar {
+  background-color: #581c0c;
+  margin: auto;
+}
+
+.navbar-brand {
+  font-family: 'Sofia', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-brand {
+    color: #f1e3cb;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* About Me Section */
+
+.title-section {
+  background-color: #f1e3cb;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.flowers {
+  width: 90%;
+}
+
+/* Social Buttons */
+
+.social-button {
+  margin: 8% 5% 8% 5%;
+}
+
+.btn-dark {
+  background-color: #581c0c;
+  color: #f1e3cb;
+}
+
+.btn-dark:hover {
+  background-color: #fff;
+  color: black;
+  border-color: black;
+}
+
+.btn-outline-light {
+  color: #581c0c;
+  border-color: #581c0c;
+}
+
+.btn-outline-light:hover {
+  border-color: black;
+}
+
+/* Portfolio Section */
+#portfolio {
+  background-color: #c6b497;
+}
+
+.toys-page-1 {
+  width: 100%;
+  border-radius: 10px;
+}
+ .container-toy {
+   padding: 10px;
+   margin: 5% 0 10% 0;
+ }
+
+.page-2 {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blankets {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon {
+  height: 26%;
+  top: 33%;
+  width: 86px;
+  }
+
+.carousel-control-next-icon{
+  height: 26%;
+  top: 33%;
+  width: 86px;
+}
+
+/* My Inspiration Section */
+
+.inspiration-row {
+  text-align: center;
+  padding: 5% 15% 5%;
+}
+
+.heart {
+  color: red;
+}
+
+.heart-column {
+  padding: 35px 60px 35px;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #f1e3cb;
+  text-align: center;
+}
+
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-ig {
+  padding: 7% 15%;
+}
+
+/* CTA section */
+
+#CTA {
+  background-color: #581c0c;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.CTAtext {
+  color: #f1e3cb;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 5%;
+}
+
+.ctabtn {
+  border-color: #f1e3cb;
+}
+
+/* Contact Me Section */
+.cme-text {
+  color: #f1e3cb;
+  line-height: 1.5;
+}
+
+.footer-icon {
+  color: #f1e3cb;
+  font-size: 100%;
+}
+
+.copyright-text {
+  color: #f1e3cb;
+  opacity: 30%;
+}
+
+/* tablet & phone transitions */
+
+@media (max-width: 768px)
+{
+  .flowers
+  {
+    width: 75%;
+  }
+  .large
+  {
+  font-size: 2rem;
+  }
+
+  .navbar-brand
+  {
+  font-size: 2rem;
+  }
+
+  .CTAtext {
+    font-size: 2rem;
+  }
+
+  .cme-text {
+    font-size: 1rem;
+  }
+
+  .folio {
+    width: 50%;
+  }
+  p
+  {
+    font-size: 0.8rem;
+  }
+}
